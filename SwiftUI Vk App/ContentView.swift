@@ -22,26 +22,14 @@ struct ContentView: View {
                         .resizable(resizingMode: .stretch)
                         .frame(width: 100, height: 100, alignment: .center)
                         .padding(50)
-                    
                     TextField("Enter login", text: $login)
                         .padding(.leading, 30)
                         .padding(.bottom, 10)
-                    Rectangle()
-                        .size(CGSize(width: geometryProxy.size.width - 60, height: 1))
-                        .foregroundColor(.gray)
-                        .padding(.leading, 30)
-                        .padding(.bottom, 30)
-
+                    underlineGrayView(weight: geometryProxy.size.width - 60)
                     TextField("Enter password", text: $password)
                         .padding(.leading, 30)
                         .padding(.bottom, 10)
-                    Rectangle()
-                        .size(CGSize(width: geometryProxy.size.width - 60, height: 1))
-                        .foregroundColor(.gray)
-                        .padding(.leading, 30)
-                        .padding(.bottom, 30)
-                    
-                    
+                    underlineGrayView(weight: geometryProxy.size.width - 60)
                     LoginButton(action: loginButtonAction, isLogined: isLogined, weight: geometryProxy.size.width - 60)
                 }
                 .frame(width: geometryProxy.size.width, height: geometryProxy.size.height)
@@ -73,6 +61,17 @@ struct LoginButton: View {
         }
             .background(Color(buttonColor))
             .shadow(color: .black, radius: 4, x: 4, y: 4)
+    }
+}
+
+struct underlineGrayView: View {
+    let weight: CGFloat
+    var body: some View {
+        Rectangle()
+            .size(CGSize(width: weight, height: 1))
+            .foregroundColor(.gray)
+            .padding(.leading, 30)
+            .padding(.bottom, 30)
     }
 }
 
