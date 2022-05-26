@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
+//  LoginView.swift
 //  SwiftUI Vk App
 //
-//  Created by Anton Hodyna on 13/05/2022.
+//  Created by Anton Hodyna on 18/05/2022.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct LoginView: View {
     
     private let backgroungColor = #colorLiteral(red: 0.3196430802, green: 0.5028241277, blue: 0.7236860991, alpha: 1)
     
@@ -31,6 +31,7 @@ struct ContentView: View {
                         .padding(.bottom, 10)
                     underlineGrayView(weight: geometryProxy.size.width - 60)
                     LoginButton(action: loginButtonAction, isLogined: isLogined, weight: geometryProxy.size.width - 60)
+                        .padding(.bottom, 30)
                 }
                 .frame(width: geometryProxy.size.width, height: geometryProxy.size.height)
                 .background(Color(backgroungColor))
@@ -72,11 +73,5 @@ struct underlineGrayView: View {
             .foregroundColor(.gray)
             .padding(.leading, 30)
             .padding(.bottom, 30)
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }
