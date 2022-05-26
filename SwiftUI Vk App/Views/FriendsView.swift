@@ -7,26 +7,43 @@
 
 import SwiftUI
 
-struct FriendsAndGroupsView: View {
+struct FriendsView: View {
     
-    private let backgroungColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
-    
-    @State var name: String = "Name Lastname"
-    @State var avatar: UIImage = UIImage(systemName: "person.fill")!
+    @State public var friends: [FriendOrGroup]
     
     var body: some View {
-        GeometryReader { geometryProxy in
-            HStack(alignment: .center, spacing: 20) {
-                Image(uiImage: avatar)
-                    .resizable()
-                    .frame(minWidth: 40, idealWidth: 50, maxWidth: 60, minHeight: 40, idealHeight: 50, maxHeight: 60, alignment: .center)
-                    .padding(.leading, 20)
-                    
-                Text(name)
-                    .lineLimit(1)
+        List {
+            ForEach(makeLettersArray(), id: \.self) { letter in
+                Section(header: Text(letter)) {
+                    ForEach(friends) { friend in
+                        if friend.name.first?.uppercased() == letter {
+                            NavigationLink(destination: FriendPhotoView(friendPhotos: [friend.avatar, friend.avatar, friend.avatar])) {
+                                FriendsAndGroupsViewCell(name: "Friend " + friend.name, avatar: friend.avatar)
+                            }
+                        }
+                    }
+                }
             }
-            .background(Color(backgroungColor))
         }
     }
+    
+    //MARK: - Private functions
+    
+    private func makeLettersArray() -> [String] {
+        var lettersArray: [String] = []
+        for friend in friends {
+            if !lettersArray.contains(friend.name.first?.uppercased() ?? "") {
+                lettersArray.append(friend.name.first?.uppercased() ?? "")
+            }
+        }
+        return lettersArray.sorted(by: {$0 < $1})
+    }
 }
+
+//struct FriendsAndGroupsView_Previewier: PreviewProvider {
+//    static var previews: some View {
+//        FriendsAndGroupsView()
+//    }
+//}
+
 
