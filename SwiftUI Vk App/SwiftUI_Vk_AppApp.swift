@@ -12,7 +12,6 @@ struct SwiftUI_Vk_AppApp: App {
     var body: some Scene {
         WindowGroup {
             LoginView()
-            FriendsAndGroupsView()
         }
     }
 }

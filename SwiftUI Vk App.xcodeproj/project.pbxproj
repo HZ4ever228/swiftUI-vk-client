@@ -7,20 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		434197E6283EC8EE00457FED /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434197E5283EC8EE00457FED /* LoginButtonView.swift */; };
+		434197E8283EC92000457FED /* FriendsAndGroupsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434197E7283EC92000457FED /* FriendsAndGroupsViewCell.swift */; };
+		434197EA283EC9B900457FED /* GroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434197E9283EC9B900457FED /* GroupsView.swift */; };
+		434197EC283EDCB700457FED /* FriendPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434197EB283EDCB600457FED /* FriendPhotoView.swift */; };
+		434197EE283EE0F400457FED /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434197ED283EE0F400457FED /* NewsModel.swift */; };
+		434197F0283EE1D000457FED /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434197EF283EE1D000457FED /* NewsView.swift */; };
+		434197F2283F646F00457FED /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434197F1283F646F00457FED /* NewsCell.swift */; };
 		43AE373F282F05CF00A35EE8 /* SwiftUI_Vk_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AE373E282F05CF00A35EE8 /* SwiftUI_Vk_AppApp.swift */; };
-		43AE3741282F05CF00A35EE8 /* ContentView_Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AE3740282F05CF00A35EE8 /* ContentView_Previews.swift */; };
 		43AE3743282F05D500A35EE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43AE3742282F05D500A35EE8 /* Assets.xcassets */; };
 		43AE3746282F05D500A35EE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43AE3745282F05D500A35EE8 /* Preview Assets.xcassets */; };
+		43C1BBC42836D3BE003F19AA /* TapBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C1BBC32836D3BE003F19AA /* TapBarView.swift */; };
+		43C1BBC72836D7EB003F19AA /* UnderlineGrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C1BBC62836D7EB003F19AA /* UnderlineGrayView.swift */; };
+		43C1BBCB2836E217003F19AA /* FriendOrGroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C1BBCA2836E217003F19AA /* FriendOrGroupModel.swift */; };
 		43E1FA9E28355D3B00480B6F /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E1FA9D28355D3B00480B6F /* FriendsView.swift */; };
 		43E1FAA028355DBC00480B6F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E1FA9F28355DBC00480B6F /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		434197E5283EC8EE00457FED /* LoginButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonView.swift; sourceTree = "<group>"; };
+		434197E7283EC92000457FED /* FriendsAndGroupsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsAndGroupsViewCell.swift; sourceTree = "<group>"; };
+		434197E9283EC9B900457FED /* GroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsView.swift; sourceTree = "<group>"; };
+		434197EB283EDCB600457FED /* FriendPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendPhotoView.swift; sourceTree = "<group>"; };
+		434197ED283EE0F400457FED /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		434197EF283EE1D000457FED /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		434197F1283F646F00457FED /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		43AE373B282F05CF00A35EE8 /* SwiftUI Vk App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Vk App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43AE373E282F05CF00A35EE8 /* SwiftUI_Vk_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Vk_AppApp.swift; sourceTree = "<group>"; };
-		43AE3740282F05CF00A35EE8 /* ContentView_Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView_Previews.swift; sourceTree = "<group>"; };
 		43AE3742282F05D500A35EE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43AE3745282F05D500A35EE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43C1BBC32836D3BE003F19AA /* TapBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBarView.swift; sourceTree = "<group>"; };
+		43C1BBC62836D7EB003F19AA /* UnderlineGrayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlineGrayView.swift; sourceTree = "<group>"; };
+		43C1BBCA2836E217003F19AA /* FriendOrGroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendOrGroupModel.swift; sourceTree = "<group>"; };
 		43E1FA9D28355D3B00480B6F /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
 		43E1FA9F28355DBC00480B6F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -36,6 +54,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		434197E3283EC8A500457FED /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				434197E7283EC92000457FED /* FriendsAndGroupsViewCell.swift */,
+				434197F1283F646F00457FED /* NewsCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		434197E4283EC8B600457FED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				43C1BBC62836D7EB003F19AA /* UnderlineGrayView.swift */,
+				434197E5283EC8EE00457FED /* LoginButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		43AE3732282F05CF00A35EE8 = {
 			isa = PBXGroup;
 			children = (
@@ -55,8 +91,8 @@
 		43AE373D282F05CF00A35EE8 /* SwiftUI Vk App */ = {
 			isa = PBXGroup;
 			children = (
-				43AE3740282F05CF00A35EE8 /* ContentView_Previews.swift */,
 				43AE373E282F05CF00A35EE8 /* SwiftUI_Vk_AppApp.swift */,
+				43C1BBC82836E1FA003F19AA /* Models */,
 				43E1FAA128355DC400480B6F /* Views */,
 				43AE3742282F05D500A35EE8 /* Assets.xcassets */,
 				43AE3744282F05D500A35EE8 /* Preview Content */,
@@ -72,11 +108,34 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		43C1BBC52836D7C4003F19AA /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				434197E4283EC8B600457FED /* Views */,
+				434197E3283EC8A500457FED /* Cells */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		43C1BBC82836E1FA003F19AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				43C1BBCA2836E217003F19AA /* FriendOrGroupModel.swift */,
+				434197ED283EE0F400457FED /* NewsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		43E1FAA128355DC400480B6F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				43C1BBC52836D7C4003F19AA /* Subviews */,
 				43E1FA9F28355DBC00480B6F /* LoginView.swift */,
+				43C1BBC32836D3BE003F19AA /* TapBarView.swift */,
 				43E1FA9D28355D3B00480B6F /* FriendsView.swift */,
+				434197E9283EC9B900457FED /* GroupsView.swift */,
+				434197EB283EDCB600457FED /* FriendPhotoView.swift */,
+				434197EF283EE1D000457FED /* NewsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -151,10 +210,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				434197EA283EC9B900457FED /* GroupsView.swift in Sources */,
 				43E1FA9E28355D3B00480B6F /* FriendsView.swift in Sources */,
-				43AE3741282F05CF00A35EE8 /* ContentView_Previews.swift in Sources */,
+				43C1BBC42836D3BE003F19AA /* TapBarView.swift in Sources */,
+				434197E8283EC92000457FED /* FriendsAndGroupsViewCell.swift in Sources */,
 				43E1FAA028355DBC00480B6F /* LoginView.swift in Sources */,
+				43C1BBC72836D7EB003F19AA /* UnderlineGrayView.swift in Sources */,
+				434197EE283EE0F400457FED /* NewsModel.swift in Sources */,
+				43C1BBCB2836E217003F19AA /* FriendOrGroupModel.swift in Sources */,
+				434197EC283EDCB700457FED /* FriendPhotoView.swift in Sources */,
+				434197F0283EE1D000457FED /* NewsView.swift in Sources */,
 				43AE373F282F05CF00A35EE8 /* SwiftUI_Vk_AppApp.swift in Sources */,
+				434197F2283F646F00457FED /* NewsCell.swift in Sources */,
+				434197E6283EC8EE00457FED /* LoginButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
